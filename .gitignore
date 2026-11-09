@@ -1,8 +1,0 @@
-node_modules/
-dist/
-site/
-coverage/
-.vitest/
-.husky/_/
-.venv/
-.DS_Store
