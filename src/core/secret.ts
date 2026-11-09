@@ -1,3 +1,5 @@
+import { DIGITS } from './digits.js';
+
 export function generateSecret(
   length: number,
   base: number,
@@ -32,4 +34,3 @@ export function generateSecret(
 
   return pick([...DIGITS.slice(0, base)], length);
 }
-import { DIGITS } from './digits.js';
